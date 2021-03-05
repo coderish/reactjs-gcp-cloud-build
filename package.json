@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:gcp": "react-scripts build"
+    "gcp-build": "npm run build"
+    "deploy": "gcloud app deploy react-app.yaml --project=redhand-303707 -q"
   },
   "eslintConfig": {
     "extends": [
